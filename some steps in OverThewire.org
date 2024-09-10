@@ -1,0 +1,15 @@
+# Project Title
+
+A brief video to show how SSH is being used on overthewire.org wbesite
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Procedure](#procedure)
+
+#introduction
+OverTheWire.org is a website that offers a collection of wargames designed to help individuals practice and improve their skills in Linux command-line, cybersecurity, networking, and hacking. It is widely used by people learning ethical hacking and cybersecurity concepts.
+
+#Procedure
+1. Go to the OverThewire.org website which I've already done in the video. On the homepage you'll find several wargames eache focused on tdifferent aspects of cybersecurity,networking and linux fundamentals
+2. I started with Bandit. Bandit is designed to teach basic linux skills through progressively challenging levels. click on the wargame anmed Bandit. Each wargame page contains and introduction and intrustions for connecting and details about the challenges
+3. Most of the war games are hosted on remote servers.To start solving the challenges we need to connect via SSH(secure shell)from your terminal using the SSH command provided e.g ssh bandit0@bandit.labs.overthewire.org -p 2220
+4. After logging in you would be given various task to complete in each level and the more you progress the harder the levels become. In Bandit,this will often involve navigating file system, reading hidden files or using linux commands to achieve the objective.
